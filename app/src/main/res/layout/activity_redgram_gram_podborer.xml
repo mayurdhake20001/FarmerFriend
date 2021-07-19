@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.farmerfriend.FSecurity_CProd_Pest_Irrigation.Pest_Protection.Redgram_gram_podborer">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="Gram pod borer: Helicoverpa armigera" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Symptoms of damage:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Defoliation in early stages"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Larva’s head alone thrust inside the pods and the rest of the body hanging out."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv5"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Pods with round holes"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv6"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Small spots appear on the leaves. These spots increase in size and produces brown ring. In ring, lines are purple in colour."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv7"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  When the disease increases,these spots become large and  interconnected with each other"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/rg_larva" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv8"
+            android:layout_marginLeft="80dp"
+            android:text="Larva feeding the pod"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv9"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Identification of insect pest:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv10"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Eggs – are spherical in shape and creamy white in colour, laid singly."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv11"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Larva - shows colour variation from greenish to brown. Green with dark brown grey lines laterally on the body with lateral white lines and also has dark and pale bands."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv12"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Pupa – brown in colour, occurs in soil, leaf, pod and crop debris"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv13"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Adult - light pale brownish yellow stout moth. Fore wing grey to pale brown with V shaped speck.Hind wings are pale smoky white with a broad blackish outer margin."
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/rg_larva1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv14"
+            android:layout_marginLeft="155dp"
+            android:text="Larva"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv15"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Management:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv16"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  For pod borers, raise one row of sunflower as intercrop for
+every 9 rows of pigeon pea and plant maize as border crop."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv17"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Pheromone traps for Helicoverpa armigera 12/ha"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv18"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Bird perches 50/ha"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv19"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Mechanical collection of grown up larva and blister beetle"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv20"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Ha NPV 3 x1012 POB/ha in 0.1% teepol"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv21"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Apply any one of the following insectcides:"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv22"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Azadirachtin 0.03 % WSP 2500-5000 g/ha"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv23"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Bacillus thuringiensis serovar kurstaki (3a,3b,3c) 5%WP1000-1250 g/ha"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv24"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Dimethoate 30% EC 1237 ml/ha"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv25"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Emamectin benzoate 5% SG 220 g/ha"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv26"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Indoxacarb 15.8% SC 333 ml/ha"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv27"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Chlorantraniliprole 18.5 SC 150ml/ha"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv28"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Spinosad 45%SC 125-162 ml/ha"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv29"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  NSKE 5% twice followed by triazophos 0.05%"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv30"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Neem oil 2%"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv31"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="\u2022  Phosalone 0.07%
+(Spray fluid 625 ml/ha) Note : Insecticide / Ha NPV spray"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

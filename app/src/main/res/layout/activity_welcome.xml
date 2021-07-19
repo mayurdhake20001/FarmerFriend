@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.farmerfriend.welcomeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">
+    <RelativeLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/lightblue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farmer's Friend"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:pointerIcon="zoom_in"
+            android:layout_marginTop="300dp"
+            android:id="@+id/state"
+            android:background="@drawable/spinnerstyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0891d1"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/l2"
+        android:layout_marginTop="135dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/spaceullustration">
+
+
+        <Button
+
+            android:id="@+id/buttonsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="131dp"
+            android:layout_marginStart="131dp"
+            android:background="@drawable/buttonstyle"
+            android:text="Start" />
+    </RelativeLayout>
+
+
+</LinearLayout>

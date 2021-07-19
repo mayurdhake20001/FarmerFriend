@@ -1,0 +1,339 @@
+<resources>
+    <string name="app_name">Farmer\'s Friend</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="later">Later</string>
+
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+
+    <string name="last_update">Last update:\n%s</string>
+    <string name="last_update_widget">\nLast update: %s</string>
+
+    <string name="search_title">Search for city</string>
+
+    <string name="downloading_data">Downloading your data ...</string>
+    <string name="getting_location">Getting your location ...</string>
+
+    <string name="error_dateFormat">DATE FORMAT ERROR</string>
+
+    <string name="setting_dateFormat">Date Format</string>
+    <string name="setting_dateFormatCustom">Custom Date Format</string>
+    <string name="setting_dateFormatCustom_summary">Provide the custom SimpleDateFormat string to be used</string>
+    <string name="setting_lengthUnits">Length units</string>
+    <string name="setting_speedUnits">Speed units</string>
+    <string name="setting_tempUnits">Temperature units</string>
+    <string name="setting_showTempAsInteger">Show temperature only as an integer</string>
+    <string name="setting_pressureUnits">Pressure units</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_auto_detect_location">Detect Location</string>
+    <string name="setting_differentiateDaysByTint">Differentiate Days with Color</string>
+    <string name="setting_refreshInterval">Background refresh interval</string>
+    <string name="setting_unit_mps">Meters per second (m/s)</string>
+    <string name="setting_unit_kph">Kilometers per hour (kph)</string>
+    <string name="setting_unit_mph">Miles per hour (mph)</string>
+    <string name="setting_unit_bft">Beaufort wind scale (bft)</string>
+    <string name="setting_unit_kn">Knots (kn)</string>
+    <string name="setting_wind_direction_format">Wind direction format</string>
+    <string name="settings_none">None</string>
+    <string name="setting_apiKey">API key</string>
+    <string name="setting_apiKey_summary">Custom API key for OpenWeatherMap queries</string>
+
+    <string name="setting_unit_Celsuis">Celsius</string>
+    <string name="setting_unit_Fahrenheit">Fahrenheit</string>
+    <string name="setting_unit_Kelvin">Kelvin</string>
+
+    <string name="setting_unit_mm">Millimeters (mm)</string>
+    <string name="setting_unit_in">Inches (in)</string>
+
+    <string name="setting_unit_hpa">hPa</string>
+    <string name="setting_unit_kpa">kPa</string>
+    <string name="setting_unit_mmhg">mm Hg</string>
+    <string name="setting_unit_inhg">in Hg</string>
+
+    <string name="speed_unit_mps">m/s</string>
+    <string name="speed_unit_kph">kph</string>
+    <string name="speed_unit_mph">mph</string>
+    <string name="speed_unit_kn">kn</string>
+
+    <string name="wind_direction_format_none">No indication</string>
+    <string name="wind_direction_format_arrows">Arrows</string>
+    <string name="wind_direction_format_abbreviations">Abbreviations</string>
+
+    <string name="pressure_unit_hpa">hPa</string>
+    <string name="pressure_unit_kpa">kPa</string>
+    <string name="pressure_unit_mmhg">mm Hg</string>
+
+    <string name="setting_theme_fresh">Fresh</string>
+    <string name="setting_theme_classic">Classic</string>
+    <string name="setting_theme_dark">Fresh Dark</string>
+    <string name="setting_theme_classic_dark">Classic Dark</string>
+    <string name="setting_theme_black">Fresh Black</string>
+    <string name="setting_theme_classic_black">Classic Black</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="msg_err_parsing_json">Error parsing JSON.</string>
+    <string name="msg_connection_problem">There is a problem with your internet connection.</string>
+    <string name="msg_connection_not_available">Connection not available.</string>
+    <string name="msg_city_not_found">Specified city is not found.</string>
+
+    <string name="weather_sunny" translatable="false">&#xf00d;</string>
+    <string name="weather_clear_night" translatable="false">&#xf02e;</string>
+    <string name="weather_foggy" translatable="false">&#xf014;</string>
+    <string name="weather_cloudy" translatable="false">&#xf013;</string>
+    <string name="weather_rainy" translatable="false">&#xf019;</string>
+    <string name="weather_snowy" translatable="false">&#xf01b;</string>
+    <string name="weather_thunder" translatable="false">&#xf01e;</string>
+    <string name="weather_drizzle" translatable="false">&#xf01c;</string>
+
+    <string name="wind_direction_north">N</string>
+    <string name="wind_direction_north_north_east">NNE</string>
+    <string name="wind_direction_north_east">NE</string>
+    <string name="wind_direction_east_north_east">ENE</string>
+    <string name="wind_direction_east">E</string>
+    <string name="wind_direction_east_south_east">ESE</string>
+    <string name="wind_direction_south_east">SE</string>
+    <string name="wind_direction_south_south_east">SSE</string>
+    <string name="wind_direction_south">S</string>
+    <string name="wind_direction_south_south_west">SSW</string>
+    <string name="wind_direction_south_west">SW</string>
+    <string name="wind_direction_west_south_west">WSW</string>
+    <string name="wind_direction_west">W</string>
+    <string name="wind_direction_west_north_west">WNW</string>
+    <string name="wind_direction_north_west">NW</string>
+    <string name="wind_direction_north_north_west">NNW</string>
+    <string name="msg_too_many_requests">Too many requests. Please try again.</string>
+
+    <!-- 1: temperature; 2: unit -->
+    <string name="dash_clock_status">%1$s%2$s</string>
+    <!-- 1: temperature; 2: unit; 3: weather description -->
+    <string name="dash_clock_expanded_title">%1$s%2$s - %3$s</string>
+    <!-- 1: city; 2: country; 3: wind; 4: speed units; 5: pressure; 6: pressure units; 7: humidity -->
+    <string name="dash_clock_expanded_body">%1$s, %2$s\nWind: %3$s %4$s\nPressure: %5$s %6$s\nHumidity: %7$s %%\n</string>
+    <string name="settings_title_units">Units</string>
+    <string name="settings_title_display">Display</string>
+    <string name="settings_title_data">Data</string>
+    <string name="setting_displayDecimalZeroes">Display decimal zeroes</string>
+    <string name="settings_title_location">Location</string>
+    <string name="setting_update_location_automatically">Update location in background</string>
+
+    <string name="location_settings">Location Settings</string>
+    <string name="location_settings_message">Location is not enabled. Do you wish to go to the settings menu?</string>
+    <string name="location_settings_button">Settings</string>
+    <string name="action_weather_map">Weather Map</string>
+    <string name="rain">Rain</string>
+    <string name="temperature">Temperature</string>
+    <string name="action_graphs">Graphs</string>
+
+    <string name="easy_example_text">Ht</string>
+    <string name="pest_of_cotton">Pest of Cotton</string>
+    <string name="american_boll_worm">American boll worm</string>
+    <string name="pink_bollworm">Pink bollworm</string>
+    <string name="tv1">Fruit borer: Helicoverpa armigera</string>
+    <string name="tv2">Management</string>
+    <string name="tv3">• ETL: One egg or one larva/plant</string>
+    <string name="tv4">Feeding injury</string>
+    <string name="tv5">Monitoring:</string>
+    <string name="tv6">• Pest monitoring should be intensified at farm, village and state level by using light traps, pheromone traps and in situ assessments by roving and fixed plot surveys. For management, an action threshold of one egg/plant or 1 larva/plant may be adopted.</string>
+    <string name="tv7">Cultural practices:</string>
+    <string name="tv8">• Synchronised sowing of cotton preferably with short duration varieties in each cotton ecosystem</string>
+    <string name="tv9">• Avoid continuous cropping of cotton both during winter and summer seasons in the same area as well as ratooning</string>
+    <string name="tv10">• Avoid monocropping. Growing of less preferred crops like greengram, blackgram, soyabean, castor, sorghum etc., along with the cotton as intercrop or border crop or alternate crop to reduce the pest infestation</string>
+    <string name="tv11">• Removal and destruction of crop residues to avoid carry over of the pest to the next season, and avoiding extended period of crop growth by continuous irrigation</string>
+    <string name="tv12">• Optimising the use of nitrogenous fertilizers that will not favour moth multiplication of the pest</string>
+    <string name="tv13">• Judicious water management for the crop to prevent excessive vegetative growth and larval harbourage</string>
+    <string name="tv14">Circular bore hole</string>
+    <string name="tv15">Biological control:</string>
+    <string name="tv16">• Application of Nuclear Polyhedrosis Virus (NPV) at 3 x 1012 POB /ha in evening hours at 7th and 12th week after sowing</string>
+    <string name="tv17">•\tBacillus thuringiensiskurstaki 750-1000 g/ha</string>
+    <string name="tv18">•\tBacillus thuringiensisserovarkurstaki (3a, 3b, 3c) 5%WP 500-1000 g/ha</string>
+    <string name="tv19">•\tBeauveriabassiana1.15% WP 400 g/ha</string>
+    <string name="tv20">•\tConservation and augmentation of natural predators and parasitoids for effective control of the pest.</string>
+    <string name="tv21">•\tInundative release of egg parasitoid, Trichogrammaspp., at 6.25 cc/ha at 15 days interval 3 times from 45 DAS</string>
+    <string name="tv22">•\tEgg-larval parasitoid, Chelonusblackburniiand Predator Chrysoperlacarneaat 1,00,000/ha at 6th, 13th and 14th week after sowing.</string>
+    <string name="tv23">• ULV spray of NPV at 3 x 10 12 POB /ha with 10% cotton seed kernel extract, 10% crude sugar, 0.1% each of Tinopal and Teepol for effective control of Helicoverpa Note: Dicofol, methyl demeton, monocrotophos and phosalone are comparatively safer to Chrysoperlalarva recording low egg mortality</string>
+    <string name="tv24">Chemical control:</string>
+    <string name="tv25">• Discourage the indiscriminate use of insecticides, particularly synthetic pyrethroids</string>
+    <string name="tv26">• Use of proper insecticides that are comparatively safer to natural enemies such as phosalone at the correct dosage and alternating different groups of insecticides for each round of spray</string>
+    <string name="tv27">• Avoid combination of insecticides as tank mix</string>
+    <string name="tv28">• Adopt proper delivery system using spraying equipments like hand compression sprayer, knapsack sprayer and mist blower to ensure proper coverage with required quantity of spray fluid and avoid ULV applications or Akela spray applications</string>
+    <string name="tv29">• Proper mixing and preparation of spray fluid for each filling of spray fluid tank</string>
+    <string name="pesticides">Pesticides</string>
+    <string name="cereals_and_millets">Cereals and MIllets</string>
+    <string name="rice">Rice</string>
+    <string name="sorghum">Sorghum</string>
+    <string name="pulses">Pulses</string>
+    <string name="redgram">RedGram</string>
+    <string name="soybean">Soybean</string>
+    <string name="oil_seeds_and_cash_crops">Oil Seeds and Cash Crops</string>
+    <string name="sun_flower">Sun Flower</string>
+    <string name="cotton">Cotton</string>
+    <string name="pest_of_redgram">Pest of RedGram</string>
+    <string name="gram_pod_borer">Gram pod borer</string>
+    <string name="blue_butterfly">Blue butterfly</string>
+
+    <string name="advisories">Advisories</string>
+    <string name="l25">The Temperature is cool and it may rain. </string>
+    <string name="g25l30">Today\'s Temperature is below the normal temperature and it is advised to water your crops as usual. </string>
+    <string name="g30l32">Today temperature is normal and hence water your plants as usual. </string>
+    <string name="g32">The Temperature is hot and so water the crops properly without any delay. </string>
+
+    <string name="AndraPradesh">Andra Pradesh</string>
+    <string name="ArunachalPradesh">Arunachal Pradesh</string>
+    <string name="Assam">Assam</string>
+    <string name="Bihar">Bihar</string>
+    <string name="Chhattisgarh">Chhattisgarh</string>
+    <string name="Goa">Goa</string>
+    <string name="Gujarat">Gujarat</string>
+    <string name="Haryana">Haryana</string>
+    <string name="HimachalPradesh">Himachal Pradesh</string>
+    <string name="JammuandKashmir">Jammu and Kashmir</string>
+    <string name="Jharkhand">Jharkhand</string>
+    <string name="Karnataka">Karnataka</string>
+    <string name="Kerala">Kerala</string>
+    <string name="MadyaPradesh">Madya Pradesh</string>
+    <string name="Maharashtra">Maharashtra</string>
+    <string name="Manipur">Manipur</string>
+    <string name="Meghalaya">Meghalaya</string>
+    <string name="Mizoram">Mizoram</string>
+    <string name="Nagaland">Nagaland</string>
+    <string name="Orissa">Orissa</string>
+    <string name="Punjab">Punjab</string>
+    <string name="Rajasthan">Rajasthan</string>
+    <string name="Sikkim">Sikkim</string>
+    <string name="TamilNadu">Tamil Nadu</string>
+    <string name="Tripura">Tripura</string>
+    <string name="Uttaranchal">Uttaranchal</string>
+    <string name="UttarPradesh">Uttar Pradesh</string>
+    <string name="WestBengal">West Bengal</string>
+
+    <string name="farmers_friend">Farmers\' Friend</string>
+    <string name="choose_crop">Choose Crop</string>
+    <string name="select_state">Select State</string>
+    <string name="select_city">Select City</string>
+    <string name="contact_us">To contact the agricultural advisor</string>
+    <string name="select_water_level">Select Water Level</string>
+    <string name="choose_area_length_in_hectares">Select length of area (hectare):</string>
+    <string name="Rice">Rice</string>
+    <string name="Wheat">Wheet</string>
+    <string name="Jowar">Jowar</string>
+    <string name="Bajra">Bajra</string>
+    <string name="Ragi">Ragi</string>
+    <string name="Maize">Maize</string>
+    <string name="Korra">Korra</string>
+    <string name="Varagu">Varagu</string>
+    <string name="Samai">Samai</string>
+    <string name="Bengalgram">Bengalgram</string>
+    <string name="Redgram">Redgram</string>
+    <string name="Greengram">Greengram</string>
+    <string name="Blackgram">Blackgram</string>
+    <string name="Horsegram">Horsegram</string>
+    <string name="Paddy">Paddy</string>
+    <string name="Sugarcane">Sugarcane</string>
+    <string name="Chillies">Chillies</string>
+    <string name="Potato">Potato</string>
+    <string name="Banana">Banana</string>
+    <string name="Mango">Mango</string>
+    <string name="Groundnut">Groundnut</string>
+    <string name="Gingelly">Gingelly</string>
+    <string name="Cotton">Cotton</string>
+    <string name="Cashewnut">Cashewnut</string>
+
+    <string name="Hectare">1 Ha</string>
+    <string name="Hectares2">2 Ha</string>
+    <string name="Hectares3">3 Ha</string>
+    <string name="Hectares4">4 Ha</string>
+
+    <string name="High">High</string>
+    <string name="Medium">Medium</string>
+    <string name="Low">Low</string>
+
+    <string name="Ariyalur">Ariyalur</string>
+    <string name="Chennai">Chennai</string>
+    <string name="Coimbatore">Coimbatore</string>
+    <string name="Cuddalore">Cuddalore</string>
+    <string name="Dharmapuri">Dharmapuri</string>
+    <string name="Dindigul">Dindigul</string>
+    <string name="Erode">Erode</string>
+    <string name="Kancheepuram">Kancheepuram</string>
+    <string name="Karur">Karur</string>
+    <string name="Krishnagiri">Krishnagiri</string>
+    <string name="Madurai">Madurai</string>
+    <string name="Nagapattinam">Nagapattinam</string>
+    <string name="Kanyakumari">Kanyakumari</string>
+    <string name="Namakkal">Namakkal</string>
+    <string name="Perambalur">Perambalur</string>
+    <string name="Pudukottai">Pudukottai</string>
+    <string name="Ramanathapuram">Ramanathapuram</string>
+    <string name="Salem">Salem</string>
+    <string name="Sivagangai">Sivagangai</string>
+    <string name="Thanjavur">Thanjavur</string>
+    <string name="Theni">Theni</string>
+    <string name="Thiruvallur">Thiruvallur</string>
+    <string name="Thiruvarur">Thiruvarur</string>
+    <string name="Tuticorin">Tuticorin</string>
+    <string name="Trichirappalli">Trichirappalli</string>
+    <string name="Thirunelveli">Thirunelveli</string>
+    <string name="Tiruppur">Tiruppur</string>
+    <string name="Thiruvannamalai">Thiruvannamalai</string>
+    <string name="TheNilgiris">The Nilgiris</string>
+    <string name="Vellore">Vellore</string>
+    <string name="Villupuram">Villupuram</string>
+    <string name="Virudhunagar">Virudhunagar</string>
+
+    <string name="Visakhapatnam">Visakhapatnam</string>
+    <string name="Vijayawada">Vijayawada</string>
+    <string name="Guntur">Guntur</string>
+    <string name="Nellore">Nellore</string>
+    <string name="Kadapa">Kadapa</string>
+    <string name="Kurnool">Kurnool</string>
+    <string name="Rajahmundry">Rajahmundry</string>
+    <string name="Kakinada">Kakinada</string>
+    <string name="Tirupati">Tirupati</string>
+    <string name="Eluru">Eluru</string>
+    <string name="Anantapur">Anantapur</string>
+    <string name="Vizianagaram">Vizianagaram</string>
+    <string name="Ongole">Ongole</string>
+    <string name="Nandyal">Nandyal</string>
+    <string name="Machilipatnam">Machilipatnam</string>
+    <string name="Adoni">Adoni</string>
+    <string name="Tenali">Tenali</string>
+    <string name="Proddatur">Proddatur</string>
+    <string name="Chittoor">Chittoor</string>
+    <string name="Hindupur">Hindupur</string>
+    <string name="Bhimavaram">Bhimavaram</string>
+    <string name="Madanapalle">Madanapalle</string>
+    <string name="Guntakal">Guntakal</string>
+    <string name="Srikakulam">Srikakulam</string>
+    <string name="Dharmavaram">Dharmavaram</string>
+    <string name="Gudivada">Gudivada</string>
+    <string name="Narasaraopet">Narasaraopet</string>
+    <string name="Tadipatri">Tadipatri</string>
+    <string name="Tadepalligudem">Tadepalligudem</string>
+    <string name="Amaravati">Amaravati</string>
+    <string name="Chilakaluripet">Chilakaluripet</string>
+    <!--<string name="choose_area_length_in_hectares">Choose area length in (Hectares):</string>-->
+    <!--<string name="select_water_level">Select Water Level</string>-->
+    <!--<string name="select_state">Select State</string>-->
+    <!--<string name="select_city">Select City</string>-->
+    <string name="submit">Submit</string>
+    <string name="alluvial_soil">Alluvial soil</string>
+    <string name="red_soil">Red Soil</string>
+    <string name="black_soil">Black Soil</string>
+    <string name="laterate_soil">Laterite Soil</string>
+    <string name="mountain_soil">Mountain Soil</string>
+    <string name="select_soil">Select Soil</string>
+    <string name="todays_prediction">Today\'s Prediction:</string>
+
+</resources>

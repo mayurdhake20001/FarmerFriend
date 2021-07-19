@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">விவசாயிகள் நண்பர்</string>
+
+    <string name="action_search">தேடல்</string>
+    <string name="action_refresh">புதுப்பிப்பு</string>
+    <string name="action_settings">அமைப்புகளை</string>
+    <string name="action_about">பற்றி</string>
+
+    <string name="today">இன்று</string>
+    <string name="tomorrow">நாளை</string>
+    <string name="later">பின்னர்</string>
+
+    <string name="wind">காற்று</string>
+    <string name="pressure">அழுத்தம்</string>
+    <string name="humidity">ஈரப்பதம்</string>
+    <string name="sunrise">சூரிய உதயம்</string>
+    <string name="sunset">சூரிய அஸ்தமனம்</string>
+
+    <string name="last_update">கடைசியாக புதுப்பிக்கப்பட்டது:\n%s</string>
+    <string name="last_update_widget">\nகடைசியாக புதுப்பிக்கப்பட்டது: %s</string>
+
+    <string name="search_title">நகரம் தேடு</string>
+
+    <string name="downloading_data">உங்கள் தரவைப் பதிவிறக்குகிறது ...</string>
+    <string name="getting_location">உங்கள் தற்போதைய இருப்பிடத்தைப் பெறுதல் ...</string>
+
+    <string name="error_dateFormat">DATE FORMAT ERROR</string>
+
+    <string name="setting_dateFormat">Date Format</string>
+    <string name="setting_dateFormatCustom">Custom Date Format</string>
+    <string name="setting_dateFormatCustom_summary">Provide the custom SimpleDateFormat string to be used</string>
+    <string name="setting_lengthUnits">Length units</string>
+    <string name="setting_speedUnits">Speed units</string>
+    <string name="setting_tempUnits">Temperature units</string>
+    <string name="setting_showTempAsInteger">Show temperature only as an integer</string>
+    <string name="setting_pressureUnits">Pressure units</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_auto_detect_location">Detect Location</string>
+    <string name="setting_differentiateDaysByTint">Differentiate Days with Color</string>
+    <string name="setting_refreshInterval">Background refresh interval</string>
+    <string name="setting_unit_mps">Meters per second (m/s)</string>
+    <string name="setting_unit_kph">Kilometers per hour (kph)</string>
+    <string name="setting_unit_mph">Miles per hour (mph)</string>
+    <string name="setting_unit_bft">Beaufort wind scale (bft)</string>
+    <string name="setting_unit_kn">Knots (kn)</string>
+    <string name="setting_wind_direction_format">Wind direction format</string>
+    <string name="settings_none">None</string>
+    <string name="setting_apiKey">API key</string>
+    <string name="setting_apiKey_summary">Custom API key for OpenWeatherMap queries</string>
+
+    <string name="setting_unit_Celsuis">Celsius</string>
+    <string name="setting_unit_Fahrenheit">Fahrenheit</string>
+    <string name="setting_unit_Kelvin">Kelvin</string>
+
+    <string name="setting_unit_mm">Millimeters (mm)</string>
+    <string name="setting_unit_in">Inches (in)</string>
+
+    <string name="setting_unit_hpa">hPa</string>
+    <string name="setting_unit_kpa">kPa</string>
+    <string name="setting_unit_mmhg">mm Hg</string>
+    <string name="setting_unit_inhg">in Hg</string>
+
+    <string name="speed_unit_mps">மீ/வி</string>
+    <string name="speed_unit_kph">கிமீ/மணி</string>
+    <string name="speed_unit_mph">மீ/மணி</string>
+    <string name="speed_unit_kn">kn</string>
+
+    <string name="wind_direction_format_none">No indication</string>
+    <string name="wind_direction_format_arrows">Arrows</string>
+    <string name="wind_direction_format_abbreviations">Abbreviations</string>
+
+    <string name="pressure_unit_hpa">hPa</string>
+    <string name="pressure_unit_kpa">kPa</string>
+    <string name="pressure_unit_mmhg">mm Hg</string>
+
+    <string name="setting_theme_fresh">Fresh</string>
+    <string name="setting_theme_classic">Classic</string>
+    <string name="setting_theme_dark">Fresh Dark</string>
+    <string name="setting_theme_classic_dark">Classic Dark</string>
+    <string name="setting_theme_black">Fresh Black</string>
+    <string name="setting_theme_classic_black">Classic Black</string>
+
+    <string name="dialog_ok">சரி</string>
+    <string name="dialog_cancel">ரத்து</string>
+
+    <string name="msg_err_parsing_json">Error parsing JSON.</string>
+    <string name="msg_connection_problem">உங்கள் இணைய இணைப்புடன் சிக்கல் உள்ளது.</string>
+    <string name="msg_connection_not_available">இணைப்பு கிடைக்கவில்லை.</string>
+    <string name="msg_city_not_found">குறிப்பிடப்பட்ட நகரம் காணப்படவில்லை.</string>
+
+    <string name="weather_sunny" translatable="false">&#xf00d;</string>
+    <string name="weather_clear_night" translatable="false">&#xf02e;</string>
+    <string name="weather_foggy" translatable="false">&#xf014;</string>
+    <string name="weather_cloudy" translatable="false">&#xf013;</string>
+    <string name="weather_rainy" translatable="false">&#xf019;</string>
+    <string name="weather_snowy" translatable="false">&#xf01b;</string>
+    <string name="weather_thunder" translatable="false">&#xf01e;</string>
+    <string name="weather_drizzle" translatable="false">&#xf01c;</string>
+
+    <string name="wind_direction_north">N</string>
+    <string name="wind_direction_north_north_east">NNE</string>
+    <string name="wind_direction_north_east">NE</string>
+    <string name="wind_direction_east_north_east">ENE</string>
+    <string name="wind_direction_east">E</string>
+    <string name="wind_direction_east_south_east">ESE</string>
+    <string name="wind_direction_south_east">SE</string>
+    <string name="wind_direction_south_south_east">SSE</string>
+    <string name="wind_direction_south">S</string>
+    <string name="wind_direction_south_south_west">SSW</string>
+    <string name="wind_direction_south_west">SW</string>
+    <string name="wind_direction_west_south_west">WSW</string>
+    <string name="wind_direction_west">W</string>
+    <string name="wind_direction_west_north_west">WNW</string>
+    <string name="wind_direction_north_west">NW</string>
+    <string name="wind_direction_north_north_west">NNW</string>
+    <string name="msg_too_many_requests">Too many requests. Please try again.</string>
+
+    <!-- 1: temperature; 2: unit -->
+    <string name="dash_clock_status">%1$s%2$s</string>
+    <!-- 1: temperature; 2: unit; 3: weather description -->
+    <string name="dash_clock_expanded_title">%1$s%2$s - %3$s</string>
+    <!-- 1: city; 2: country; 3: wind; 4: speed units; 5: pressure; 6: pressure units; 7: humidity -->
+    <string name="dash_clock_expanded_body">%1$s, %2$s\nWind: %3$s %4$s\nPressure: %5$s %6$s\nHumidity: %7$s %%\n</string>
+    <string name="settings_title_units">Units</string>
+    <string name="settings_title_display">Display</string>
+    <string name="settings_title_data">Data</string>
+    <string name="setting_displayDecimalZeroes">Display decimal zeroes</string>
+    <string name="settings_title_location">Location</string>
+    <string name="setting_update_location_automatically">Update location in background</string>
+
+    <string name="location_settings">Location Settings</string>
+    <string name="location_settings_message">Location is not enabled. Do you wish to go to the settings menu?</string>
+    <string name="location_settings_button">Settings</string>
+    <string name="action_weather_map">வானிலை வரைபடம்</string>
+    <string name="rain">மழை</string>
+    <string name="temperature">வெப்ப நிலை</string>
+    <string name="action_graphs">வரைபடங்கள்</string>
+
+    <string name="farmers_friend">விவசாயிகள் நண்பர்</string>
+    <string name="choose_crop">பயிர் தேர்ந்தெடு:</string>
+    <string name="select_state">மாநிலம் தேர்ந்தெடு</string>
+    <string name="select_city">நகரம் தேர்ந்தெடு</string>
+    <string name="submit">சமர்ப்பி</string>
+    <string name="contact_us">விவசாய ஆலோசகரை தொடர்பு கொள்ள</string>
+    <string name="select_water_level">நீர் மட்டத்தை தேர்ந்தெடுக்கவும்</string>
+    <string name="choose_area_length_in_hectares">பகுதியில் நீளம் தேர்ந்தெடு (ஹெக்டேர்):</string>
+    <string name="Rice">அரிசி</string>
+    <string name="Wheat">கோதுமை</string>
+    <string name="Jowar">சோளம்</string>
+    <string name="Bajra">கம்பு</string>
+    <string name="Ragi">கேழ்வரகு</string>
+    <string name="Maize">சோளம்</string>
+    <string name="Korra">கொர்ரா</string>
+    <string name="Varagu">வறகு</string>
+    <string name="Samai">சாமை</string>
+    <string name="Bengalgram">கொண்டைக் கடலை</string>
+    <string name="Redgram">துவரை</string>
+    <string name="Greengram">பச்சைப்பயறு</string>
+    <string name="Blackgram">உளுந்து</string>
+    <string name="Horsegram">தானியம்</string>
+    <string name="Paddy">நெல்</string>
+    <string name="Sugarcane">கரும்பு</string>
+    <string name="Chillies">மிளகாய்</string>
+    <string name="Potato">உருளைக்கிழங்கு</string>
+    <string name="Banana">வாழை</string>
+    <string name="Mango">மாங்கனி</string>
+    <string name="Groundnut">நிலக்கடலை</string>
+    <string name="Gingelly">எள்</string>
+    <string name="Cotton">பருத்தி</string>
+    <string name="Cashewnut">முந்திரிப்பருப்பு</string>
+
+    <string name="alluvial_soil">அலுலியம் மண்</string>
+    <string name="red_soil">சிவப்பு மண்</string>
+    <string name="black_soil">கருப்பு மண்</string>
+    <string name="laterate_soil">பின்புற மண்</string>
+    <string name="mountain_soil">மலை மண்</string>
+    <string name="select_soil">மண் தேர்ந்தெடு</string>
+
+    <string name="Hectare">1 ஹெக்</string>
+    <string name="Hectares2">2 ஹெக்</string>
+    <string name="Hectares3">3 ஹெக்</string>
+    <string name="Hectares4">4 ஹெக்</string>
+
+    <string name="High">உயர்</string>
+    <string name="Medium">நடுத்தர</string>
+    <string name="Low">குறைந்த</string>
+
+    <string name="AndraPradesh">ஆந்திரப் பிரதேசம்</string>
+    <string name="ArunachalPradesh">அருணாச்சல பிரதேசம்</string>
+    <string name="Assam">அசாம்</string>
+    <string name="Bihar">பீகார்</string>
+    <string name="Chhattisgarh">சத்தீஸ்கர்</string>
+    <string name="Goa">கோவா</string>
+    <string name="Gujarat">குஜராத்</string>
+    <string name="Haryana">அரியானா</string>
+    <string name="HimachalPradesh">ஹிமாச்சல பிரதேசம்</string>
+    <string name="JammuandKashmir">ஜம்மு மற்றும் காஷ்மீர்</string>
+    <string name="Jharkhand">ஜார்கண்ட்</string>
+    <string name="Karnataka">கர்நாடகா</string>
+    <string name="Kerala">கேரளா</string>
+    <string name="MadyaPradesh">மத்திய பிரதேசம்</string>
+    <string name="Maharashtra">மகாராஷ்டிரா</string>
+    <string name="Manipur">மணிப்பூர்</string>
+    <string name="Meghalaya">மேகாலயா</string>
+    <string name="Mizoram">மிசோரம்</string>
+    <string name="Nagaland">நாகாலாந்து</string>
+    <string name="Orissa">ஒரிசா</string>
+    <string name="Punjab">பஞ்சாப்</string>
+    <string name="Rajasthan">ராஜஸ்தான்</string>
+    <string name="Sikkim">சிக்கிம்</string>
+    <string name="TamilNadu">தமிழ்நாடு</string>
+    <string name="Tripura">திரிபுரா</string>
+    <string name="Uttaranchal">உத்தராஞ்சல்</string>
+    <string name="UttarPradesh">உத்திரப்பிரதேசம்</string>
+    <string name="WestBengal">மேற்கு பெங்கல்</string>
+
+    <string name="Ariyalur">அரியலூர்</string>
+    <string name="Chennai">சென்னை</string>
+    <string name="Coimbatore">கோயம்புத்தூர்</string>
+    <string name="Cuddalore">கடலூர்</string>
+    <string name="Dharmapuri">தர்மபுரி</string>
+    <string name="Dindigul">திண்டுக்கல்</string>
+    <string name="Erode">ஈரோடு</string>
+    <string name="Kancheepuram">காஞ்சிபுரம்</string>
+    <string name="Karur">கரூர்</string>
+    <string name="Krishnagiri">கிருஷ்ணகிரி</string>
+    <string name="Madurai">மதுரை</string>
+    <string name="Nagapattinam">நாகப்பட்டினம்</string>
+    <string name="Kanyakumari">கன்னியாகுமாரி</string>
+    <string name="Namakkal">நாமக்கல்</string>
+    <string name="Perambalur">பெரம்பலூர்</string>
+    <string name="Pudukottai">புதுக்கோட்டை</string>
+    <string name="Ramanathapuram">ராமநாதபுரம்</string>
+    <string name="Salem">சேலம்</string>
+    <string name="Sivagangai">சிவகங்கை</string>
+    <string name="Thanjavur">தஞ்சாவூர்</string>
+    <string name="Theni">தேனி</string>
+    <string name="Thiruvallur">திருவள்ளூர்</string>
+    <string name="Thiruvarur">திருவாரூர்</string>
+    <string name="Tuticorin">தூத்துக்குடி</string>
+    <string name="Trichirappalli">திருச்சிராப்பள்ளி</string>
+    <string name="Thirunelveli">திருநெல்வேலி</string>
+    <string name="Tiruppur">திருப்பூர்</string>
+    <string name="Thiruvannamalai">திருவண்ணாமலை</string>
+    <string name="TheNilgiris">நீலகிரி</string>
+    <string name="Vellore">வேலூர்</string>
+    <string name="Villupuram">விழுப்புரம்</string>
+    <string name="Virudhunagar">விருதுநகர்</string>
+</resources>

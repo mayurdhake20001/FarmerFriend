@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.farmerfriend">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".welcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar.Classic">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Weather_Report.activities.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Weather_Report.activities.SplashActivity"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".Weather_Report.activities.SettingsActivity"
+            android:theme="@style/AppTheme"
+            tools:ignore="WrongManifestParent" />
+
+        <receiver android:name=".Weather_Report.widgets.ExtensiveWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/extensive_widget" />
+        </receiver>
+        <receiver android:name=".Weather_Report.widgets.TimeWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/time_widget" />
+        </receiver>
+        <receiver android:name=".Weather_Report.widgets.SimpleWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/simple_widget" />
+        </receiver>
+
+        <service
+            android:name=".Weather_Report.widgets.DashClockWeatherExtension"
+            android:icon="@drawable/ic_cloud_white_24dp"
+            android:label="@string/app_name"
+            android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA">
+            <intent-filter>
+                <action android:name="com.google.android.apps.dashclock.Extension" />
+            </intent-filter>
+
+            <meta-data
+                android:name="protocolVersion"
+                android:value="2" />
+            <meta-data
+                android:name="worldReadable"
+                android:value="true" />
+            <meta-data
+                android:name="settingsActivity"
+                android:value=".ExampleSettingsActivity" />
+        </service>
+
+        <receiver android:name=".Weather_Report.AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Weather_Report.activities.MapActivity"
+            android:parentActivityName=".Weather_Report.activities.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Weather_Report.activities.GraphActivity"
+            android:label="@string/action_graphs"
+            android:parentActivityName=".Weather_Report.activities.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Video_Success_Stories.Videos.MainActivityVideo"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Video_Success_Stories.Videos.Webview"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".FSecurity_CProd_Pest_Irrigation.Food_Security.WebVieW" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Rice"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Pesticides"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Sorghum"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Pesticides"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.RedGram"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Pesticides"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Soybean"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Pesticides"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Sunflower"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Pesticides"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Cotton"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Pesticides"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Rice_thrips"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Rice"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Rice_Green_Leafhopper"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Rice"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Rice_Paddy_stemborer"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Rice"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Sorghum_shoot_fly"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Sorghum"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Redgram_gram_podborer"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.RedGram"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Soybean_whitefly"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Soybean"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Sunflower_Capitulum_borer"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Sunflower"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Cotton_american_boll_worm"
+            android:label="@string/app_name"
+            android:parentActivityName=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Cotton"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Contact.MainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".FSecurity_CProd_Pest_Irrigation.Pest_Protection.Pesticides" android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".Suggestion.Suggestion"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Home" />
+        <activity android:name=".Water.Water" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Water.Contaminated" />
+        <activity android:name=".Water.Muddy" />
+        <activity android:name=".Water.Chlorine"></activity>
+    </application>
+
+</manifest>
